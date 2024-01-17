@@ -113,7 +113,7 @@ close()
 ```html
 <!-- example_vdp.html -->
 
-<head>
+<body>
 
   ...
 
@@ -132,7 +132,7 @@ close()
     window.swervv.registerButton(existingButtonEl, '{{vin}}');
   </script>
 
-</head>
+</body>
 ```
 
 <br>
