@@ -17,7 +17,7 @@
 Simply add the Swervv script to your VDP page in either the `<head>` or `<body>`:
 
 ```html
-<script async type="application/javascript" src="https://connect.swervv.io/loader.js" data-organization-id="ORGANIZATION_ID"></script>
+<script src="https://connect.swervv.io/loader.js" data-organization-id="ORGANIZATION_ID"></script>
 ```
 
 <br>
@@ -118,7 +118,7 @@ close()
   ...
 
   <!-- Install Script -->
-  <script async type="application/javascript" src="https://connect.swervv.io/loader.js" data-organization-id="ORGANIZATION_ID"></script>
+  <script src="https://connect.swervv.io/loader.js" data-organization-id="ORGANIZATION_ID"></script>
 
   <!-- Option 1: Create Button -->
   <script type="text/javascript">
@@ -146,7 +146,7 @@ close()
   ...
 
   <!-- Could also be loaded programmatically depending on use case -->
-  <script async type="application/javascript" src="https://connect.swervv.io/loader.js" data-organization-id="ORGANIZATION_ID"></script>
+  <script async src="https://connect.swervv.io/loader.js" data-organization-id="ORGANIZATION_ID"></script>
 
 </head>
 ```
